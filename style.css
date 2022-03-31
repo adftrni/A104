@@ -14,7 +14,7 @@ body{
 }
 
 .calculator{
-    width: 25%;
+    width: 100%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 7px 7px 7px rgba(0,0,0,0.5);

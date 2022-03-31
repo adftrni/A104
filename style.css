@@ -14,7 +14,9 @@ body{
 }
 
 .calculator{
-    width: 100%;
+    margin: 15px;
+    max-width: 1170px;
+    width: 25%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
@@ -76,3 +78,17 @@ button:hover{
         font-size: 18px;
     }
 }
+
+@media all and (max-width: 1000px) {
+    .calculator {
+        width: 50%;
+    }
+}
+
+/*Smartphone*/
+@media all and (max-width: 670px) {
+    .calculator {
+        width: 100%;
+    }
+}
+
